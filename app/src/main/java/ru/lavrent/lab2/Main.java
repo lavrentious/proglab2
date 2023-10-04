@@ -11,11 +11,11 @@ import ru.lavrent.lab2.pokemon.Vigoroth;
 public class Main {
     public static void main(String[] args) {
         Battle b = new Battle();
-        b.addAlly(new Vigoroth("Nigger", 1));
-        b.addAlly(new Electabuzz("Faggot", 1));
-        b.addAlly(new Aggron("Gay", 1));
-        b.addFoe(new Cacnea("Pidor", 1));
-        b.addFoe(new Cacturne("Negro", 1));
+        b.addAlly(new Vigoroth("Vladimir Putin ZV", 1));
+        b.addAlly(new Electabuzz("Evgeny Prigozhin", 1));
+        b.addAlly(new Aggron("Sergei Shoygu", 1));
+        b.addFoe(new Cacnea("Vlaimir Zelensky", 1));
+        b.addFoe(new Cacturne("Anthony Blinken", 1));
         b.addFoe(new Forretress("Joe Biden", 1));
         b.go();
     }
