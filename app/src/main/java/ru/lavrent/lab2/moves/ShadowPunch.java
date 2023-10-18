@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Type;
 
 public class ShadowPunch extends PhysicalMove {
   public ShadowPunch() {
-    super(Type.GHOST, 60, 999999999);
+    super(Type.GHOST, 60, Double.POSITIVE_INFINITY);
   }
 
   @Override
