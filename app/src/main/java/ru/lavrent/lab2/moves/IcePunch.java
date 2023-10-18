@@ -12,7 +12,7 @@ public class IcePunch extends PhysicalMove {
 
   @Override
   protected void applyOppEffects(Pokemon pokemon) {
-    if (Math.random() <= 0.1) {
+    if (!pokemon.hasType(Type.ICE) && Math.random() <= 0.1) {
       Effect.freeze(pokemon);
     }
   }
